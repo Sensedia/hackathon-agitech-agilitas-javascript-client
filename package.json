@@ -1,0 +1,21 @@
+{
+  "name": "api_agillitas_cartes_pr_pagos",
+  "version": "1.0.0",
+  "description": "API_para_manipular_recursos_relacionadas_aos__cartes_pr_pagos_Agillitas_",
+  "license": "Unlicense",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --recursive"
+  },
+  "browser": {
+    "fs": false
+  },
+  "dependencies": {
+    "superagent": "3.5.2"
+  },
+  "devDependencies": {
+    "mocha": "~2.3.4",
+    "sinon": "1.17.3",
+    "expect.js": "~0.3.1"
+  }
+}
